@@ -1,0 +1,30 @@
+{
+  "name": "projektstudie_music_ai",
+  "version": "1.0.0",
+  "description": "run node app to query categories from spotify with: node app.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "env-cmd -f ./config/.env node src/app.js",
+    "dev": "env-cmd -f ./config/.env nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aLucht/projektstudie_music_ai.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aLucht/projektstudie_music_ai/issues"
+  },
+  "homepage": "https://github.com/aLucht/projektstudie_music_ai#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "env-cmd": "^10.0.1",
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "nodemon": "^1.19.4",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5"
+  }
+}
